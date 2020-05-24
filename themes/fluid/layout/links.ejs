@@ -7,7 +7,7 @@ page.banner_img_height = theme.links.banner_img_height
 page.banner_mask_alpha = theme.links.banner_mask_alpha
 %>
 
-<h5 class="note note-success">身边的大佬们</h5>
+<h5 class="note note-success">🍭身边的大佬们</h5>
 <div class="row links" style="margin-top:-25px;">
   <% for(const each of theme.links.defaultlinks) { %>
     <% if (!each.title || !each.link) continue %>
@@ -15,7 +15,7 @@ page.banner_mask_alpha = theme.links.banner_mask_alpha
       <a href="http://<%= url_for(each.link) %>" class="card-body hover-with-bg" target="_blank" rel="noopener">
         <div class="card-content">
         <div class="link-avatar my-auto">
-          <img src="https://cdn.jsdelivr.net/gh/337892571/imges@master/liniks/<%= each.title %>.jpg?fmt=webp&w=100&h=100&q=100" alt="<%= each.title %>" />
+          <img src="https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/<%= each.title %>.jpg?fmt=webp&w=100&h=100&q=100" alt="<%= each.title %>" />
         </div>
         <div class="link-text">
           <div class="link-title"><%- each.title %></div>
@@ -27,7 +27,7 @@ page.banner_mask_alpha = theme.links.banner_mask_alpha
   <% } %>
 </div>
 
-<h5 class="note note-primary">五湖四海的朋友们</h5>
+<h5 class="note note-primary">⛅️五湖四海的朋友们</h5>
 <div class="row links" style="margin-top:-25px;">
   <% for(const each of theme.links.friendslinks) { %>
     <% if (!each.title || !each.link) continue %>
@@ -35,7 +35,7 @@ page.banner_mask_alpha = theme.links.banner_mask_alpha
       <a href="https://<%= each.link %>" class="card-body hover-with-bg" target="_blank" rel="noopener">
         <div class="card-content">
         <div class="link-avatar my-auto">
-          <img src="https://cdn.jsdelivr.net/gh/337892571/imges@master/liniks/<%= each.title %>.jpg?fmt=webp&w=100&h=100&q=100" alt="<%= each.title %>" />
+          <img src="https://cdn.jsdelivr.net/gh/chuyua/imges@master/liniks/<%= each.title %>.jpg?fmt=webp&w=100&h=100&q=100" alt="<%= each.title %>" />
         </div>
         <div class="link-text">
           <div class="link-title"><%- each.title %></div>
