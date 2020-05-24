@@ -54,8 +54,5 @@ jobs:
           git config --local user.name "chuyua" # 你的用户名
           git add .
           git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-          git push --force "https://${{ secrets.GH_TOKEN }}@${{ secrets.GH_REF }}" master:master
-          git push --force "https://VmmtZKXhRb:bfbcc4405159a4480f1cd1eb5882c7a7cea026a4@e.coding.net/linik/linik/linik.git" master:master
-          
-          
+          git push --force "https://${{ secrets.GH_TOKEN }}@${{ secrets.GH_REF }}" master:master          
           
