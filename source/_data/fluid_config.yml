@@ -35,7 +35,7 @@ fun_features: # 一些好玩的功能
     element: h1,h2,h3,h4,h5,h6
     placement: right # icon放置的位置： left | right
     visible: hover # 默认悬浮显示，可选：hover（鼠标在元素上悬浮时显示） | always（一直显示） | touch（移动端触摸显示）
-    icon: "" # 可选：§ | # |  等，留空则为默认效果
+    icon: "❡" # 可选：§ | # | ❡ 等，留空则为默认效果
   mouse_click:  # 鼠标点击动效
     enable: true
     style: love # 目前设置两个值：values（价值观词汇） | love（爱心）
@@ -76,7 +76,7 @@ web_analytics:  # 网页访问统计
 lazyload: # 对页面中的图片进行懒加载处理，可见范围外的图片不会加载
   enable: true
   onlypost: true  # 仅在文章页使用懒加载，开启后如果自定义页面需要使用，可以在 Front-matter 里指定 `lazyload: true`
-  image: https://cdn.jsdelivr.net/gh/337892571/imges@master/BlogSource/loading.svg
+  image: https://cdn.jsdelivr.net/gh/chuyua/imges@master/BlogSource/loading.svg
 
 daovoice:  # 在线客服 Daovoice 参考：http://dashboard.daovoice.io
   enable: false # 是否开启在线客服聊天
@@ -168,7 +168,7 @@ index:
   banner_img_height: 100  # 头图高度，屏幕百分比，available: 0 - 100
   banner_mask_alpha: 0.3  # 头图黑色蒙版的透明度，available: 0 - 1.0， 0 是完全透明（无蒙版），1 是完全不透明
   post_default_img:   # 随机默认文章封面图，当没有指定 index_img 时会使用该文件夹中的图片，若都为空则不显示任何图片
-    url: https://cdn.jsdelivr.net/gh/337892571/imges@master/index_img # 默认的文章封面图文件夹
+    url: https://cdn.jsdelivr.net/gh/chuyua/imges@master/index_img # 默认的文章封面图文件夹
     number: 3 # 文件夹中图片数量，图片命名从0开始 0.jpg 1.jpg 2.jpg
     format: webp # 图片格式，保证文件夹中图片格式一致
   slogan:  # 首页副标题的独立设置
@@ -360,7 +360,7 @@ about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.co
   banner_img: https://rmt.dogedoge.com/fetch/royce/storage/bg/1.jpg?fmt=webp
   banner_img_height: 80  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
-  subtitle: '今后无论发生什么事也好<br>这个左手上的······都是同伴的记号' # 打字机内容
+  subtitle: '今后无论发生什么事也好<br>这个左手上的⋯⋯都是同伴的记号' # 打字机内容
   avatar: https://cdn.jsdelivr.net/gh/Royce2019/BlogSource/about/Royce.webp # 头像
   name: lioil
   introduce: '<span id="gradient" style="font-family: Sriracha,cursive;">less is more.</span>' # 支持 HTML
@@ -401,6 +401,6 @@ links:
     - { title: 'skrshadow', intro: '红雨大佬', link: 'www.skrshadow.cn' }
     - { title: '186526的博客', intro: '群大佬', link: '186526.xyz' }
     - { title: 'Dmcimi', intro: '群大佬', link: 'blog.dmcimi.top' }
-    - { title: '菠萝菠萝', intro: '菠萝大佬', link: 'wngamebox.cn' }
+    - { title: '菠萝菠萝🍍', intro: '菠萝🍍大佬', link: 'wngamebox.cn' }
   friendslinks:
     - { title: '186526的博客', intro: '群大佬', link: '186526.club' }
